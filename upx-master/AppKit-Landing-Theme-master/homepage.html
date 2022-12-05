@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title">O que é a carteira de carbono?</h2>
+            <p class="intro">A carteira de carbono te ajuda a fazer mudanças significativas no seu cotidiano!</p>
+            <ul class="technologies list-inline">
+            </ul>
+
+            <div class="items-wrapper row">
+                <div class="item col-md-4 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <label id="pontos" class="fs-1">0</label>
+                        </div>
+                        <!--//figure-holder-->
+                        <h3 class="item-title">Pontos Acumulados</h3>
+                    </div>
+                    <!--//item-inner-->
+
+                    <button id="carro" onclick="somaPontos()" type="button" class="btn btn-primary">Carro</button>
+                    <button id="moto" onclick="somaPontos()" type="button" class="btn btn-secondary">Moto</button>
+                    <button id="onibus" onclick="somaPontos()" type="button" class="btn btn-outline-primary">Ônibus</button>
+
+
+                </div>
+                <!--//item-->
+                <div class="item col">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <br>
+                            <p class="fs-4">Aqui você pode saber quantos pontos você acumulou!</p>
+                            <p class="fs-4">Você pode conferir onde pode trocar os pontos aqui!</p>
+
+
+
+                        </div>
+                        <!--//item-->
+                    </div>
+                    <!--//items-wrapper-->
+                </div>
+                <!--//container-->
+            </div>
+            <!--//about-section-->
+
+            <div id="testimonials" class="testimonials-section">
+                <div class="container">
+                    <h2 class="section-title text-center">Quais são os impactos da suas atitudes?</h2>
+                    <div class="item mx-auto">
+                        <div class="profile-holder">
+
+                        </div>
+                        <div class="quote-holder">
+                            <blockquote class="quote">
+                                <p>texto.</p>
+
+
+                            </blockquote>
+                        </div>
+                        <!--//quote-holder-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-reversed mx-auto">
+                        <div class="profile-holder">
+
+                        </div>
+                        <div class="quote-holder">
+                            <blockquote class="quote">
+                                <p>texto </p>
+
+
+                            </blockquote>
+                        </div>
+                        <!--//quote-holder-->
+                    </div>
+                    <!--//item-->
+                    <div class="item mx-auto">
+                        <div class="profile-holder">
+
+                        </div>
+                        <div class="quote-holder">
+                            <blockquote class="quote">
+                                <p>texto.</p>
+
+                            </blockquote>
+                        </div>
+                        <!--//quote-holder-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-reversed mx-auto">
+                        <div class="profile-holder">
+
+                        </div>
+                        <div class="quote-holder">
+                            <blockquote class="quote">
+                                <p>text
+                                </p>
+
+                            </blockquote>
+
+                        </div>
+                        <!--//quote-holder-->
+                    </div>
+                    <!--//item-->
+                    <div class="text-center mt-4">
+
+                    </div>
+                </div>
+                <!--//container-->
+            </div>
+            <!--//testimonials-->
+
+            <div id="features" class="features-section">
+                <div class="container text-center">
+                    <h2 class="section-title">TROCA DE PONTOS</h2>
+                    <p class="intro">Você pode trocar seus pontos pelos seguintes produtos: </p>
+
+                    <div class="tabbed-area row">
+
+                        <!-- Nav tabs -->
+                        <div class="feature-nav nav nav-pill flex-column col-lg-4 col-md-6 col-12 order-0 order-md-1"
+                            role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active mb-lg-3" href="#feature-1" aria-controls="feature-1"
+                                data-bs-toggle="pill" role="tab" aria-selected="true"><i
+                                    class="fa-solid fa-magic me-2"></i>Viagens</a>
+                            <a class="nav-link mb-lg-3" href="#feature-2" aria-controls="feature-2"
+                                data-bs-toggle="pill" role="tab" aria-selected="false"><i
+                                    class="fa-solid fa-cubes me-2"></i>Cupons no ifood</a>
+                            <a class="nav-link mb-lg-3" href="#feature-3" aria-controls="feature-3"
+                                data-bs-toggle="pill" role="tab" aria-selected="false"><i
+                                    class="fa-solid fa-chart-bar me-2"></i>Livros</a>
+                            <a class="nav-link mb-lg-3" href="#feature-5" aria-controls="feature-5"
+                                data-bs-toggle="pill" role="tab" aria-selected="false"><i
+                                    class="fa-solid fa-rocket me-2"></i>Viagens</a>
+                            <a class="nav-link mb-lg-3" href="#feature-6" aria-controls="feature-6"
+                                data-bs-toggle="pill" role="tab" aria-selected="false"><i
+                                    class="fa-solid fa-mobile-alt me-2"></i>Fully Responsive</a>
+                            <a class="nav-link mb-lg-3" href="#feature-7" aria-controls="feature-7"
+                                data-bs-toggle="pill" role="tab" aria-selected="false"><i
+                                    class="fa-solid fa-star me-2"></i>Beautiful UI</a>
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
+                            <div role="tabpanel" class="tab-pane fade show active" id="feature-1">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <table>
+                                                <center>
+                                                    <tr id="table">
+                                                        <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                            alt="remedio" width="25%">
+                                                    </tr>
+                                                </center>
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/remedio.png"
+                                                        alt="remedio" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-2">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/cupon.png"
+                                                        alt="cupon" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-3">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/livro.jpg"
+                                                        alt="livro" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-4">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/"
+                                    target="_blank"><img class="img-fluid" src="assets/images/feature-4.png"
+                                        alt="screenshot"></a>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-5">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <table>
+                                                <center>
+                                                    <tr id="table">
+                                                        <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                            alt="aviao" width="25%">
+                                                    </tr>
+                                                </center>
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+
+                                        <td>
+                                            <table>
+
+                                                <tr>
+                                                    <img src="../AppKit-Landing-Theme-master/assets/images/aviao.png"
+                                                        alt="aviao" width="25%">
+                                                </tr>
+
+                                                <tr>
+                                                    <td id="texto-viagem">Viagem para Rio de Janeiro</td>
+                                                </tr>
+
+                                                <br>
+
+                                                <tr>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary">Comprar</button>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+
+
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-6">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/"
+                                    target="_blank"><img class="img-fluid" src="assets/images/feature-6.png"
+                                        alt="screenshot"></a>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-7">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/"
+                                    target="_blank"><img class="img-fluid" src="assets/images/feature-7.png"
+                                        alt="screenshot"></a>
+                            </div>
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <!--===============================================================================================-->
+                            <div role="tabpanel" class="tab-pane fade" id="feature-8">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/"
+                                    target="_blank"><img class="img-fluid" src="assets/images/feature-8.png"
+                                        alt="screenshot"></a>
+                            </div>
+
+                        </div>
+                        <!--//feature-content-->
+
+
+                    </div>
+                    <!--//tabbed-area-->
+
+                </div>
+                <!--//container-->
+            </div>
+            <!--//features-->
+
+            <div class="team-section" id="team">
+                <div class="container text-center">
+                    <h2 class="section-title">Nosso time/h2>
+                        <div class="story">
+                            <p>Introduce your team here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                dis parturient montes, nascetur ridiculus mus. Integer tincidunt. Cras dapibus. Vivamus
+                                elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
+                                eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                                feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                                Aenean imperdiet. Etiam ultricies nisi vel augue</p>
+                        </div>
+                        <div class="members-wrapper row">
+                            <div class="item col-md-6 col-12">
+                                <div class="item-inner">
+
+
+                                    <div class="member-content">
+                                        <h3 class="member-name">Lucy</h3>
+                                        <div class="member-title">Product Designer</div>
+                                        <ul class="social list-inline">
+                                            <li class="list-inline-item"><a class="twitter" href="#" target="_blank"><i
+                                                        class="fab fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a class="facebook" href="#" target="_blank"><i
+                                                        class="fab fa-facebook-f"></i></a></li>
+                                            <li class="list-inline-item"><a class="dribbble" href="#" target="_blank"><i
+                                                        class="fab fa-dribbble"></i></a></li>
+                                            <li class="list-inline-item"><a class="medium" href="#" target="_blank"><i
+                                                        class="fab fa-medium-m"></i></a></li>
+                                        </ul>
+                                        <div class="member-desc">
+                                            <p>Sara is the product designer behind XYZ. Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Nam tempus neque sed leo pharetra, rutrum
+                                                ultrices neque varius. Follow her on <a href="#">Twitter</a>. </p>
+                                        </div>
+                                        <!--//member-desc-->
+                                    </div>
+                                    <!--//member-content-->
+                                </div>
+                                <!--//item-inner-->
+                            </div>
+                            <!--//item-->
+                            <div class="item col-md-6 col-12">
+                                <div class="item-inner">
+
+
+                                    <div class="member-content">
+                                        <h3 class="member-name">Tiago Tavares</h3>
+                                        <div class="member-title">Full-Stack Developer</div>
+                                        <ul class="social list-inline">
+                                            <li class="list-inline-item"><a class="twitter" href="#" target="_blank"><i
+                                                        class="fab fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" target="_blank"><i
+                                                        class="fa-solid fa-globe"></i></a></li>
+                                            <li class="list-inline-item"><a class="linkedin" href="#" target="_blank"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li class="list-inline-item"><a class="github" href="#" target="_blank"><i
+                                                        class="fab fa-github"></i></a></li>
+
+
+                                        </ul>
+                                        <div class="member-desc">
+                                            <p>Nick is a full-stack developer specialising in building XYZ. Follow him
+                                                on <a href="#" target="_blank">Twitter</a> for fresh developer tips and
+                                                check out his <a href="#" target="_blank">Github</a> for useful
+                                                open-source tools.
+                                            </p>
+                                        </div>
+                                        <!--//member-desc-->
+                                    </div>
+                                    <!--//member-content-->
+                                </div>
+                                <!--//item-inner-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//members-wrapper-->
+                        <div class="text-center mt-5">
+                            <a class="btn btn-cta btn-primary"
+                                href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/"
+                                target="_blank">Contact Us</a>
+                        </div>
+                </div>
+            </div>
+            <!--//team-section-->
+
+            
+
+
+            <!-- Javascript -->
+            <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+            <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
